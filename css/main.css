@@ -508,6 +508,10 @@ input, input:hover, input:focus {
 	.form__submit {
 		margin-top: 20px;
 	}
+
+	.way__elem_yellow {
+		margin-left: 0px;
+	}
 }
 
 @media screen and (max-width:576px) {
@@ -542,5 +546,101 @@ input, input:hover, input:focus {
 
 	.author {
 		width: 576px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+
+	.container {
+		width: 390px;
+	}
+
+	.question {
+		width: auto;
+	}
+
+	.d-flex {
+		display: block;
+	}
+
+	.offer__title {
+		font-size: 35px;
+		width: 250px;
+		margin-left: 75px;
+	}
+
+	.offer__workshop {
+		margin-left: -95px;
+	}
+
+	.offer {
+		text-align: center;
+	}
+
+	.header-first-selection {
+		text-align: center;
+	}
+
+	.offer__item {
+		width: 380px;
+	}
+	
+	.offer__btn {
+		margin-left: 38px;
+	}
+
+	.header-second-logo-img {
+		width: 300px;
+	}
+
+	h2 {
+		width: 392px;
+		font-size: 30px;
+	}
+
+	.question__text {
+		margin-left: 20px;
+	}
+
+	.author__element {
+		display: flex;
+		margin-left: 70px;
+	}
+
+	.author__text_short {
+		margin-left: 15px;
+	}
+
+	.amount {
+		width: auto;
+	}
+
+	.author {
+		width: 390px;
+	}
+
+	.author__icon {
+		width: 100px;
+	}
+
+	.amount__money {
+		margin-right: 400px;
+	}
+
+	.amount {
+		padding-left: 80px;
+	}
+
+	.achieve {
+		width: auto;
+	}
+
+	.achieve__title {
+		font-size: 20px;
+		width: 255px;
+	}
+
+	.form__wrap {
+		padding-left: 50px;
 	}
 }
