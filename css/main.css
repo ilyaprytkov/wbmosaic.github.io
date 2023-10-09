@@ -549,7 +549,7 @@ input, input:hover, input:focus {
 	}
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 520px) {
 
 	.container {
 		width: 390px;
@@ -575,6 +575,11 @@ input, input:hover, input:focus {
 
 	.offer {
 		text-align: center;
+		width: 390px;
+	}
+
+	.offer__workshop {
+		padding-left: 100px;
 	}
 
 	.header-first-selection {
