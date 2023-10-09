@@ -1,0 +1,423 @@
+/*  -------- Спецификация -------- */
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+	
+.container {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	line-height: 1.4em;
+	font-size: 14px;
+	margin-bottom: 1.7em;	
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: black;
+	text-transform: uppercase;
+	line-height: 1.15em;
+}
+
+h1 {
+	font-size: 29px;
+}
+
+h2 {
+	font-size: 58px;
+}
+
+h3 {
+	font-size: 37px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+a , a:hover, a:active{
+	text-decoration: none;
+}
+
+input, input:hover, input:focus {
+	outline: none;
+}
+
+.link {
+	font-size: 17px;
+	color: #000;
+	border-bottom: 1px dotted #000;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.btn {
+	font-weight: 900;
+	color: #fff;
+	background: #000;
+	font-size: 20px;
+	display: block;
+	width: 311px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 25px 0;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+.btn:active {
+
+}
+
+/* -------- Первый экран -------- */
+
+.header{
+	padding-top: 75px;
+	background: #fee11a	 url(../img/first_bg.jpg) no-repeat center top;
+	padding-bottom: 96px ;
+}
+
+.logo {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin-bottom: 73px;
+	word-spacing: -5px;
+}
+
+.first-logo-name {
+	
+}
+
+.second-logo-name {
+
+}
+
+.offer {
+	width: 781px;
+}
+
+.offer__workshop {
+	font-size: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 32px;
+}
+
+.offer__workshop i {
+	font-size: 16px;
+}
+
+.offer__title {
+	font-size: 61px;
+	margin-bottom: 20px;
+}
+
+.offer__list {
+	font-size: 19px;
+	margin-bottom: 47px;
+}
+
+.offer__item {
+	margin-bottom: 8px;
+}
+
+/*----- Вторая секция -----*/
+
+.question {
+	width: 705px;
+	padding: 83px 135px 80px 0;
+}
+
+.question__text {
+	font-size: 22px;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+.author {
+	background: #ededed;
+	color: #454545;
+	width: 462px;
+	padding: 65px 0 65px 40px;
+}
+
+.author__name {
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.author__details {
+}
+
+.author__line {
+	margin-bottom: 0;
+	font-size: 17px;
+}
+
+.author__digits {
+	margin-bottom: 27px;
+	margin-top: 27px;
+}
+
+.author__sites {
+
+}
+
+.author__icon {
+	font-size: 39px;
+	font-weight: 700;
+	margin-right: 13px;
+}
+
+.author__text {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.author__text_long {
+	width: 83px;
+}
+
+.author__text_short {
+	width: 48px;
+}
+
+.author__element {
+
+}
+
+.author__link {
+
+}
+
+/*----- Третья секция -----*/
+
+.money {
+	background: #000;
+}
+
+.question__white {
+	color: #fff;
+}
+
+.amount {
+	background: #ffde00;
+	width: 462px;
+	font-weight: 900;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.amount__money {
+	font-size: 72px;
+	width: 230px;
+}
+
+.amount__money span {
+	font-size: 34px;
+	display: block;
+	text-transform: uppercase;
+	margin-top: -7px;
+}
+
+/*----- Четвертая секция -----*/
+
+.thanks {
+	padding: 86px 0 0;
+}
+
+.achieve {
+	width: 635px;
+}
+
+.achieve__title {
+	width: 440px;
+}
+
+.achieve__list {
+	margin-top: 40px;
+}
+
+.achieve__item {
+	margin-bottom: 44px;
+	display: flex;
+}
+
+.achieve__item:before {
+	content: '';
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: #000;
+	border: 6px solid #ffde00;
+	margin-right: 26px;
+}
+
+.photo {
+	width: 400px;
+	height: 450px;
+	margin-top: -30px;
+}
+
+/*----- Пятая секция -----*/
+
+.time {
+	background: #000;
+	color: #fff;
+}
+
+.way__elem {
+	padding: 17px 0;
+	display: block;
+}
+
+.way__elem_yellow {
+	background: #ffde00;
+	color: #000;
+	padding: 17px 23px;
+	margin-left: 18px;
+}
+
+.way__start{
+	font-size: 19px;
+	margin-left: 32px;
+	text-transform: uppercase;
+}
+
+.way__info {
+	margin-right: 17px;
+}
+
+.way__info:after {
+	content: '/';
+	margin-left: 17px;
+}
+
+.way__info:last-child:after {
+	display: none;
+}
+
+/*----- Шестая секция -----*/
+
+.reg {
+	background: #ffde00;
+	padding: 80px 0; 
+}
+
+.form {
+	margin-top: 60px;
+}
+
+.form__title {
+	line-height: 1.5em;
+}
+
+.form__title span {
+	background: #000;
+	color: #ffde00;
+	padding: 4px 5px;
+}
+
+.form__wrap {
+	margin-top: 28px;
+	height: 67px;
+}
+
+.form__input {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	display: block;
+	border: none;
+	width: 295px;
+	padding: 21px 33px;
+	margin-right: 16px;
+}
+
+.form__input:focus {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.form__submit {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	background: #ffde00;
+	color: #000;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.form__safety {
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 35px;
+}
+
+.form__safety i {
+	margin-right: 5px;
+}
+
+/* ------ Седьмая секция ------ */
+
+.footer {
+	background: #000;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 58px 0;
+}
+
+.credits__item {
+	margin-right: 95px;
+	letter-spacing: 0.08em;
+}
+
+.credits__item_black {
+	font-weight: 900;
+}
+
+.credits__item span {
+	color: #ffde00;
+}
