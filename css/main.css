@@ -76,6 +76,10 @@ input, input:hover, input:focus {
 	display: flex;
 }
 
+.d-flex-phone {
+	display: flex;
+}
+
 .justify-between {
 	justify-content: space-between;
 }
@@ -420,4 +424,123 @@ input, input:hover, input:focus {
 
 .credits__item span {
 	color: #ffde00;
+}
+
+@media screen and (max-width:992px) {
+	.container {
+		width: 900px;
+	}
+
+	.header {
+		background: #fee11a	 url(../img/first_bg.jpg) repeat center top;
+	}
+	
+	.offer {
+		width: 500px;
+	}
+
+	.header-second-logo-img {
+		width: 440px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.container {
+		width: 740px;
+	}
+
+
+	.d-flex-phone {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.offer {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.offer__list {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.offer__btn {
+		margin: 30px 0 0 95px;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+
+	.photo {
+		width: 300px;
+		height: 300px;
+	}
+
+	.achieve__item {
+		font-size: 14px;
+	}
+
+	.way__elem {
+		font-size: 30px;
+	}
+
+	.form__wrap {
+		display: block;
+		padding-left: 210px;
+	}
+
+	.form__input {
+		margin-top: 20px;
+	}
+
+	.reg {
+		text-align: center;
+	}
+
+	.form__safety {
+		margin-top: 250px;
+		margin-bottom: -40px;
+	}
+	
+	.form__submit {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width:576px) {
+	.container {
+		width: 576px;
+	}
+	
+	.d-flex {
+		display: block;
+		text-align: center;
+	}
+
+	.form__wrap {
+		padding-left: 120px;
+	}
+
+	.way__start{
+		margin-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.question__text {
+		width: 350px;
+		margin-left: 100px;
+	}
+
+	.amount	 {
+		width: 576px;
+		padding-left: 155px;
+		text-align: center;
+	}
+
+	.author {
+		width: 576px;
+	}
 }
